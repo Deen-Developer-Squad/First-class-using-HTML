@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <header>
+        <table border="0" width="100%" height="auto">
+            <tr style="text-align: center; background-color: black; color: white;">
+                <td style="padding: 40px 0px 40px 0px;"><a href="#">Home</a></td>
+                <td style="padding: 40px 0px 40px 0px;"><a href="#">About</a></td>
+                <td style="padding: 40px 0px 40px 0px;"><a href="#">Contact</a></td>
+                <td style="padding: 40px 0px 40px 0px;"><a href="#">Gallery</a></td>
+                <td style="padding: 40px 0px 40px 0px;"><a href="#">Account</a></td>
+            </tr>
+        </table>
+    </header>
+
+    <style>
+        .web-body td{
+            padding: 100px;
+            background-color: rgb(0, 0, 0);
+            /* background-image: url(Images/TMNT.jpg); */
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+        }
+        /* .web-body td:hover{
+            background-color: #fff;
+            color: black;
+        } */
+        a{
+            color: rgb(206, 204, 204);
+            text-decoration: none;
+        }
+        a:hover{
+            color: #fff;
+        }
+        .td1 td{
+            background-image: url(images/TMNT.jpg);
+            padding: 150px;
+        }
+        .td1 div{
+            background-color: black;
+            padding: 25px 100px 25px 100px;
+            border-radius: 55px;
+        }
+        .td1 h1{
+            font-size: 40px;
+        }
+        .td1 p{
+            font-size: 20px;
+        }
+    </style>
+
+    <section>
+        <table border="1" width="100%" height="auto" class="web-body">
+            <tr class="td1">
+                <td colspan="3">
+                    <div>
+                        <h1>WELCOME TO MY WEBPAGE</h1>
+                        <p>This is my first website for the year 2022... Kindly show some love!</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Image</td>
+                <td>Text</td>
+                <td>Image</td>
+            </tr>
+
+            <tr>
+                <td colspan="3">Image</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Text</td>
+                <td colspan="1">Image</td>
+            </tr>
+
+            <tr>
+                <td>Text</td>
+                <td>Image</td>
+                <td>Text</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
